@@ -32,15 +32,15 @@ public class Main {
             {
                 if (a[1] == b[1] && a[0] != a[1])
                 {
-                    System.out.println("Overflow1");
+                    System.out.println("Overflow 1");
                 }
                 else if (a[2] == b[2] && a[1] != b[1] && a[0] != a[2])	
                 {
-                    System.out.println("Overflow2");
+                    System.out.println("Overflow 2");
                 }
                 else if ((a[3] == b[3]) && (a[2] != b[2]) && (a[1] != b[1]) && (a[0] != a[3]))
                 {
-                    System.out.println("Overflow3");
+                    System.out.println("Overflow 3");
                 }
                 else
                 {
@@ -51,11 +51,11 @@ public class Main {
             {
                 if (a[0] != a[1] || b[0] != b[1])
                 {
-                    System.out.println("Overflow4");
+                    System.out.println("Overflow 4");
                 }
                 else if (a[0] == a[2] || b[0] == b[2])
                 {
-                    System.out.println("Overflow5");
+                    System.out.println("Overflow 5");
                 }
                 else
                 {
